@@ -8128,3 +8128,48 @@ object {
   display: block;
   width: 100%;
 }
+
+.woocommerce[class*="columns-"] > .products li {
+  float: left;
+}
+
+.woocommerce[class*="columns-"] > .products li {
+  margin-right: 3.8%;
+}
+
+
+.woocommerce[class*="columns-"] > .products li.product.first {
+  clear: both;
+}
+.woocommerce[class*="columns-"] > .products li.product.last {
+  margin-right: 0;
+}
+
+.woocommerce[class*="columns-"] > .products.columns-1 li.product {
+  float: none;
+  width: 100%;
+}
+.woocommerce[class*="columns-"] > .products.columns-2 li.product {
+  width: 48.1%;
+}
+@media only screen and (min-width: 992px) {
+  .woocommerce[class*="columns-"] > .products.columns-3 li.product {
+    width: 30.7966666667%;
+  }
+  .woocommerce[class*="columns-"] > .products.columns-4 li.product {
+    width: 22.15%;
+  }
+  .woocommerce[class*="columns-"] > .products.columns-5 li.product {
+    width: 16.96%;
+  }
+  .woocommerce[class*="columns-"] > .products.columns-6 li.product {
+    width: 13.4933333333%;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .woocommerce[class*="columns-"] > .products {
+    max-width: 656px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
