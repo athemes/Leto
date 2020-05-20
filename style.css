@@ -7880,6 +7880,11 @@ object {
   content: "\f373";
 }
 
+.woocommerce form .form-row .woocommerce-form__label-for-checkbox span.required:before,
+.woocommerce form .woocommerce-form__label-for-checkbox span.required:before {
+  display: none;
+}
+
 .woocommerce a.button,
 .woocommerce button.button,
 .woocommerce input.button,
