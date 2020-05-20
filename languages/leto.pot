@@ -286,6 +286,10 @@ msgstr ""
 msgid "Login / Register"
 msgstr ""
 
+#: inc/header-functions.php:66
+msgid "My account"
+msgstr ""
+
 #: inc/header-functions.php:75
 msgid "Cart"
 msgstr ""
@@ -683,6 +687,10 @@ msgstr ""
 
 #: woocommerce/checkout/form-coupon.php:30
 msgid "Click here to enter your code"
+msgstr ""
+
+#: woocommerce/checkout/form-coupon.php:32
+msgid "If you have a coupon code, please apply it below."
 msgstr ""
 
 #: woocommerce/checkout/form-coupon.php:38
